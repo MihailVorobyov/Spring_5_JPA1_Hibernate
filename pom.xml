@@ -19,16 +19,16 @@
     <maven.compiler.target>8</maven.compiler.target>
 </properties>
 <dependencies>
+
     <dependency>
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-core</artifactId>
-        <version>5.4.3.Final</version>
     </dependency>
 
     <dependency>
-        <groupId>com.ibeetl</groupId>
-        <artifactId>mysql</artifactId>
-        <version>3.2.12-RELEASE</version>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <scope>runtime</scope>
     </dependency>
 
     <dependency>
